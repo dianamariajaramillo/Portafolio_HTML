@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Lato', sans-serif;
+}
+
 .lateral{
     background-color: #56b3ab;
     position:fixed;
@@ -50,8 +54,23 @@
 
 .informacion__titulo{
     font-size: 18px;
-
 }
+
+/*marca*/
+
+.marcas{
+    padding: 0;
+}
+
+.marca{
+    background-color: #0f6a62;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: .3em;
+    text-transform: uppercase;
+}
+
 
 /* habilidad */
 .habilidades{
@@ -65,4 +84,38 @@
     font-size: 12px;
     padding: .5em;
     text-transform: uppercase;
+}
+
+.habilidad--proyecto{
+    background-color: #29597C;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: .5em;
+    text-transform: uppercase;
+}
+
+.proyectos{
+    margin-left: 350px;
+    padding: 1em;
+    display: table;    
+}
+
+.proyecto{
+    width: 50%;
+    display: table-cell;
+    padding: 1em;
+}
+
+.proyecto__imagen{
+    width: 100%;
+}
+
+.proyecto__titulo{
+    color: #29597C;
+    font-size: 18px;
+}
+
+.proyecto__descripcion{
+    color: #797D7F;
 }
